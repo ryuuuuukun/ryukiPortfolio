@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family:  'Avenir next','Arial','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif, sans-serif;
+  font-size: 1.6rem;
+  color: #282828;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.fixed {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  background: hsla(0, 0%, 100%, 0.95);
+  /* box-shadow: 0px 2px 8px hsl(0, 0%, 90%); */
+}
+
+.nav-menu {
+  display: none;
+}
+
+.title-logo {
+  margin: 0 auto;
+  padding: 12px 0 0;
+  height: 46px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.title-logo-link {
+  color: #282828;
+  text-decoration: none;
+}
+
+.site-contents {
+  padding: 36px 0 0 ;
+}
+
+.contents-title {
+  color: hsl(0, 0%, 20%);
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.works-categories {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 0;
+}
+
+.works-categories-current {
+  color: #282828;
+}
+
+.works-category-detail {
+  padding: 0 16px;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 60%);
+
+  transition: all 0.5s;
+}
+
+.work-cards-group {
+  margin: 30px 0 0;
+}
+
+.works-card-link {
+  display: block;
+  margin: 0 0 32px;
+  min-width: 240px;
+  height: 400px;
+  background: hsl(0, 0%, 98%);
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.work-image {
+  margin: 0 0 24px;
+  width: 100%;
+  height: 300px;
+  border-radius: 4px 4px 0 0;
+  background: url(../images/music-diary.jpg) center;
+  background-size: cover;
+}
+
+.work-title {
+  margin: 0 0 8px;
+  padding: 0 0 0 16px;
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 30%);
+}
+
+.work-caption {
+  padding: 0 0 0 15px;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 40%);
+}
+
+.site-footer {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width:600px) and ( max-width:959px) {
+
+}
+
+@media screen and (min-width:1024px) {
+    /*　for PC　*/
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+
+
+  .site-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    background: hsla(0, 0%, 100%, 0.95);
+    /* box-shadow: 0px 2px 8px hsl(0, 0%, 90%); */
+  }
+
+  .title-logo {
+    margin: 0 0 0 24px;
+    padding: 12px 0 0;
+    height: 46px;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+
+  .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 40px;
+  }
+
+  .menu-item {
+
+  }
+
+  .menu-detail {
+    display: block;
+    padding: 12px 36px 12px 24px;
+    color: #4b4b4b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+
+  .menu-detail:hover {
+    color: #bebebe;
+  }
+
+  .current-nav {
+    color: #cdcdcd;
+  }
+
+  .main-contents {
+  }
+
+  .works-categories {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 0;
+  }
+
+
+
+  .works-categories-current {
+    color: #282828;
+  }
+
+  .works-category-detail {
+    padding: 0 16px;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 60%);
+
+    transition: all 0.5s;
+  }
+
+  .works-category-detail:hover {
+    color: #282828;
+  }
+
+  .site-contents {
+    padding: 36px 0 0 ;
+  }
+
+  .contents-title {
+    color: hsl(0, 0%, 20%);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .work-cards-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0 0;
+  }
+
+  .work-card {
+
+  }
+
+  .works-card-link {
+    display: block;
+    margin: 0 0 32px;
+    min-width: 300px;
+    height: 400px;
+    background: hsl(0, 0%, 98%);
+    border-radius: 4px;
+    transition: .3s;
+  }
+
+  .works-card-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 12px hsl(0, 0%, 90%);
+  }
+
+  .work-image {
+    margin: 0 0 24px;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px 4px 0 0;
+    background: url(../images/music-diary.jpg) center;
+    background-size: cover;
+  }
+
+  .work-title {
+    margin: 0 0 8px;
+    padding: 0 0 0 16px;
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 30%);
+  }
+
+  .work-caption {
+    padding: 0 0 0 15px;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 40%);
+  }
+
+  .site-footer {
+    margin: 0 0 24px;
+    text-align: center;
+  }
+
+}
