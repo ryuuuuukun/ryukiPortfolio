@@ -42,7 +42,7 @@ a {
 }
 
 .nav-menu {
-  display: none;
+  pointer-events: none;
   z-index: 1;
   background: hsla(0, 0%, 100%, 0.95);
   text-align: center;
@@ -52,7 +52,7 @@ a {
 }
 
 .nav-menu.active {
-  display: block;
+  pointer-events: auto;
   opacity: 1;
 }
 
@@ -163,7 +163,6 @@ a {
   padding: 0 16px;
   font-size: 1.2rem;
   color: hsl(0, 0%, 60%);
-
   transition: all 0.5s;
 }
 
