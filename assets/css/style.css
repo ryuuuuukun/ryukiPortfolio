@@ -215,7 +215,7 @@ a {
 }
 
 @media screen and (min-width:1024px) {
-    /*　for PC　*/
+    /* for PC */
 
   .wrapper {
     width: 960px;
@@ -245,19 +245,18 @@ a {
     display: flex;
     justify-content: flex-end;
     margin: 0 0 40px;
+    opacity: 1;
   }
 
   .menu-item {
-
+    padding: 0;
+    box-shadow: 0px 0px rgba(255, 255, 255, 0);
+    height: inherit;
   }
 
   .menu-detail {
-    display: block;
     padding: 12px 36px 12px 24px;
-    color: #4b4b4b;
-    text-decoration: none;
     font-weight: 500;
-    font-size: 1.6rem;
     letter-spacing: 0.1rem;
 
     transition-property: all;
@@ -266,6 +265,10 @@ a {
 
   .menu-detail:hover {
     color: #bebebe;
+  }
+
+  .btn_hamburger {
+    display: none;
   }
 
   .main-contents {
@@ -287,7 +290,6 @@ a {
     padding: 0 16px;
     font-size: 1.4rem;
     color: hsl(0, 0%, 60%);
-
     transition: all 0.5s;
   }
 
