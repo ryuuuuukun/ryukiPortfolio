@@ -121,10 +121,14 @@ a {
 }
 
 .btn_hamburger span:nth-of-type(3) {
+  top: 10px;
+}
+
+.btn_hamburger span:nth-of-type(4) {
   bottom: 0;
 }
 
-.btn_hamburger span:nth-of-type(2)::after {
+/* .btn_hamburger span:nth-of-type(2)::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -132,9 +136,32 @@ a {
   width: 100%;
   height: 2px;
   background: #282828;
+  -webkit-transition: all .4s;
   transition: all .4s;
+} */
+
+.btn_hamburger.active span:nth-of-type(3){
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
+.btn_hamburger.active span:nth-of-type(2) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.btn_hamburger.active span:nth-of-type(1) {
+    -webkit-transform: translateY(20px) scale(0);
+    -ms-transform: translateY(20px) scale(0);
+    transform: translateY(20px) scale(0);
+}
+.btn_hamburger.active span:nth-of-type(4) {
+    -webkit-transform: translateY(-20px) scale(0);
+    -ms-transform: translateY(-20px) scale(0);
+    transform: translateY(-20px) scale(0);
+}
 
 /* コンテンツ */
 
@@ -224,6 +251,7 @@ a {
 
 
   .site-nav {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     height: 46px;
@@ -296,7 +324,7 @@ a {
   }
 
   .site-contents {
-    padding: 801px 0 0 ;
+    padding: 80px 0 0 ;
   }
 
   .contents-title {
