@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900');
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 html {
@@ -232,7 +232,7 @@ a {
 }
 
 .site-footer {
-  margin: 0 0 24px;
+  margin: 36px 0 24px;
   text-align: center;
 }
 
@@ -386,8 +386,7 @@ a {
   }
 
   .site-footer {
-    margin: 0 0 24px;
-    text-align: center;
+
   }
 
 }
