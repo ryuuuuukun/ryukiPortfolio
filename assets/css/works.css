@@ -261,6 +261,15 @@ source {
   }
 
 
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: auto;
+  }
 
 
 
