@@ -17,9 +17,18 @@
   <title>Ryuki Murakami portfolio - labo</title>
   <link rel="stylesheet" href="assets/css/ress.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="./assets/js/loaders.css-master/loaders.min.css" type="text/css">
 
 </head>
 <body>
+  <div id="pageloading-wrap">
+     <!-- 「Loaders.css」をアイコンに採用 -->
+     <div id="pageloading-icon" class="ball-scale">
+       <p class="loading-message">welcome to my portfolio</p>
+       <div></div>
+     </div>
+  </div>
+
     <header class="site-header">
       <nav class="site-nav">
           <h1 class="title-logo"><a href="index.html" class="title-logo-link">Ryuki Murakami</a></h1>
@@ -97,17 +106,7 @@
   </div>
 
   <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script>
-    $(function(){
-      $('#jsi-btn-hamburger').click(function() {
-        $(this).toggleClass("active");
-          if ($(this).hasClass('active')) {
-            $('.nav-menu').addClass('active');
-          } else {
-            $('.nav-menu').removeClass('active');
-          }
-      });
-    });
-  </script>
+  <script src="assets/js/index.js"></script>
+
 </body>
 </html>
