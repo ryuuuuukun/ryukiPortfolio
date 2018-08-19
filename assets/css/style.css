@@ -178,6 +178,14 @@ a {
   text-align: center;
 }
 
+.page-caption {
+  margin: 4px 0 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 60%);
+
+}
+
 .works-categories {
   display: flex;
   justify-content: center;
