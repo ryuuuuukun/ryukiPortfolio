@@ -16,5 +16,5 @@ $(function(){
  function loaderClose(){
    $("#pageloading-wrap").fadeOut('slow');
  }
- setTimeout(loaderClose,5000);
+ setTimeout(loaderClose,2000);
 });
