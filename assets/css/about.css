@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.my-intro img {
+.my-image {
   width: 90%;
   border-radius: 500px;
 }
@@ -21,8 +21,9 @@
 
 .my-descriptions {
   margin: 20px 0 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2.8rem;
+  color: #4A4A4A;
 }
 
 
@@ -32,5 +33,34 @@
 
 @media screen and (min-width:1024px) {
     /* for PC */
+    .my-intro {
+      display: flex;
+      margin: 24px 0 0;
+      text-align: left;
+    }
 
+    .about-image {
+      margin: 0 0 0 40px;
+    }
+
+    .my-image {
+      width: 360px;
+      border-radius: 500px;
+    }
+
+    .about-texts {
+      margin: 44px 0 0 144px;
+    }
+
+    .my-name {
+
+    }
+
+    .position {
+
+    }
+
+    .my-descriptions {
+
+    }
 }
