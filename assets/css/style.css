@@ -44,6 +44,10 @@ a {
   font-weight: bold;
 }
 
+.gray-rect {
+  border: solid 1px #eee;
+}
+
 .wrapper {
   margin: 0 auto;
   padding: 0 16px;
