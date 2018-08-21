@@ -1,0 +1,36 @@
+.my-intro {
+  margin: 24px 0 0;
+  text-align: center;
+}
+
+.my-intro img {
+  width: 90%;
+  border-radius: 500px;
+}
+
+.my-name {
+  margin: 16px 0 0;
+  font-size: 3.6rem;
+}
+
+.position {
+  font-size: 1.8rem;
+  margin: 8px 0 0;
+  color: hsl(0, 0%, 60%);
+}
+
+.my-descriptions {
+  margin: 20px 0 0;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    /* for PC */
+
+}
