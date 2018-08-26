@@ -1,0 +1,35 @@
+.error-message {
+  margin: 184px 0 0;
+  text-align: center;
+}
+
+.error-message h2 {
+  font-size: 6.4rem;
+}
+
+.error-message p {
+  margin: 8px 0 0;
+  font-size: 1.6rem;
+}
+
+.button-section {
+  text-align: center;
+  margin: 154px 0 0;
+}
+
+.to-top-button {
+  margin: 0 auto;
+  height: 44px;
+  width: 80%;
+  background: #5d636f;
+  text-align: center;
+  border-radius: 22px;
+}
+
+.to-top-button a {
+  display: block;
+  height: 44px;
+  line-height: 4.4rem;
+  color: #FFF;
+  font-weight: 600;
+}
