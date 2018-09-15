@@ -226,7 +226,7 @@ a {
 
 @keyframes up {
   0% {
-   transform:translateY(10%);
+   transform:translateY(5%);
   }
   100% {
     transform: none;
