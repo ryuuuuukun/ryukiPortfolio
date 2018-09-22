@@ -102,8 +102,7 @@ a {
   font-size: 1.6rem;
   font-weight: 600;
 }
-
-.title-logo-link {
+.title-logo__link {
   color: #282828;
   text-decoration: none;
 }

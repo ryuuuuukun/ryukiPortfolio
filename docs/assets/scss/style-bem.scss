@@ -108,11 +108,10 @@ a {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
-}
-
-.title-logo-link {
-  color: #282828;
-  text-decoration: none;
+  &__link {
+    color: #282828;
+    text-decoration: none;
+  }
 }
 
 .btn_hamburger {
