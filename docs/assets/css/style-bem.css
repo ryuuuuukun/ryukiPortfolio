@@ -302,16 +302,16 @@ a {
     opacity: 1;
     box-shadow: 0px 0px rgba(255, 255, 255, 0);
   }
-  .nav-menu--item {
+  .nav-menu__item {
     padding: 0;
   }
-  .nav-menu--detail {
+  .nav-menu__detail {
     padding: 12px 36px 12px 24px;
     font-weight: 500;
     transition-property: all;
     transition-duration: 0.5s;
   }
-  .nav-menu--detail:hover {
+  .nav-menu__detail:hover {
     color: #bebebe;
   }
 
