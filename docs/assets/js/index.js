@@ -1,5 +1,4 @@
 // ハンバーガーメニュー
-
 $(function(){
   $('#jsi-btn-hamburger').click(function() {
     $(this).toggleClass("active");
@@ -12,13 +11,12 @@ $(function(){
 });
 
 // ロード画面
-
 $(function(){
  $(window).on('load',function(){
-   $("#pageloading-wrap").delay(1000).fadeOut('slow');
+   $("#pageloading__wrap").delay(1000).fadeOut('slow');
  });
  function loaderClose(){
-   $("#pageloading-wrap").fadeOut('slow');
+   $("#pageloading__wrap").fadeOut('slow');
  }
  setTimeout(loaderClose,2000);
 });
