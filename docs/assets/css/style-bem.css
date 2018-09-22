@@ -82,15 +82,15 @@ a {
   pointer-events: auto;
   opacity: 1;
 }
-.nav-menu--item {
+.nav-menu__item {
   width: 100%;
   padding: 8px;
 }
-.nav-menu--detail {
+.nav-menu__detail {
   display: block;
   color: #4b4b4b;
 }
-.nav-menu--detail__current {
+.nav-menu__detail--current {
   color: #cdcdcd;
 }
 
