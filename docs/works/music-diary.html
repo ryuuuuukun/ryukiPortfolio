@@ -1,128 +1,135 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123485007-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123485007-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-123485007-1');
-  </script>
+      gtag('config', 'UA-123485007-1');
+    </script>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ryuki Murakami portfolio - music diary</title>
-  <link rel="stylesheet" href="../assets/css/ress.css">
-  <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
-  <link rel="stylesheet" href="../assets/css/style-bem.css">
-  <link rel="stylesheet" href="../assets/css/works.css">
+    <meta property="og:title" content="Ryuki Murakami portfolio - music diary" />
+    <meta property="og:description" content="Ryuki Murakamiのポートフォリオサイトです。これまでの作品や試作品などを載せています。" />
+    <meta property="og:url" content="http://ryuki.design/works/music-diary.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://ryuki.design/assets/images/music-diary.jpg" />
+    <meta property="og:site_name" content="Ryuki Murakami portfolio" />
 
-</head>
-<body>
-  <header class="site-header">
-    <nav class="site-nav">
-        <h1 class="title-logo"><a href="" class="title-logo__link">Ryuki Murakami</a></h1>
-        <p class="btn_hamburger" id="jsi-btn-hamburger">
-          <a href="#!">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-        </p>
-      <ul class="nav-menu" id="jsi-nav-menu">
-        <li class="nav-menu__item"><a href="#works" class="nav-menu__detail nav-menu__detail--current">works</a></li>
-        <li class="nav-menu__item"><a href="labo.html" class="nav-menu__detail">labo</a></li>
-        <li class="nav-menu__item"><a href="about.html" class="nav-menu__detail">about</a></li>
-        <li class="nav-menu__item"><a href="https://goo.gl/forms/Ac1scFLU9mNKjqHt1" class="nav-menu__detail" target="_blank">feedback</a></li>
-        <li class="nav-menu__item"><a href="https://note.mu/ryuuuuuyr" class="nav-menu__detail" target="_blank">blog</a></li>
-      </ul><!-- /nav-menu -->
-    </nav><!-- /site-nav -->
-  </header><!-- /site-header   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ryuki Murakami portfolio - music diary</title>
+    <link rel="stylesheet" href="../assets/css/ress.css">
+    <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
+    <link rel="stylesheet" href="../assets/css/style-bem.css">
+    <link rel="stylesheet" href="../assets/css/works.css">
 
-<div class="wrapper">
-  <section class="music-top">
-    <div class="top-titles">
-      <h2 class="works-title">music diary</h2>
-      <p class="works-catchcopy">音楽の感動記録アプリ</p>
-    </div><!-- top-titles -->
-    <div class="top-image">
-      <img src="../assets/images/music-diary.jpg" alt="music-diary-visual" class="works-title-image">
-    </div>
-  </section>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav">
+          <h1 class="title-logo"><a href="" class="title-logo__link">Ryuki Murakami</a></h1>
+          <p class="btn_hamburger" id="jsi-btn-hamburger">
+            <a href="#!">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </p>
+        <ul class="nav-menu" id="jsi-nav-menu">
+          <li class="nav-menu__item"><a href="#works" class="nav-menu__detail nav-menu__detail--current">works</a></li>
+          <li class="nav-menu__item"><a href="labo.html" class="nav-menu__detail">labo</a></li>
+          <li class="nav-menu__item"><a href="about.html" class="nav-menu__detail">about</a></li>
+          <li class="nav-menu__item"><a href="https://goo.gl/forms/Ac1scFLU9mNKjqHt1" class="nav-menu__detail" target="_blank">feedback</a></li>
+          <li class="nav-menu__item"><a href="https://note.mu/ryuuuuuyr" class="nav-menu__detail" target="_blank">blog</a></li>
+        </ul><!-- /nav-menu -->
+      </nav><!-- /site-nav -->
+    </header><!-- /site-header   -->
 
-  <section class="works-section works-about">
-    <h3 class="section-title">what's music diary?</h3>
-    <div class="text-group">
-      <p>音楽を聴いていて、ふと感動を覚えることはありませんか。<br>
-      不安から救ってくれた、傷ついた心を癒してくれた音楽の感動を記録し、振り返るアプリです。<br>
-      今の自分を救ってくれた音楽を記録しておくことで、未来の自分がまた救われるかもしれません。</p>
-    </div>
-  </section>
-
-  <section class="works-section works-how-to-use">
-    <h3 class="section-title">how to use</h3>
-    <div class="use-stage">
-      <img src="../assets/images/select-music.jpg" alt="">
-      <div class="stage-descriptions">
-        <p class="number">01</p>
-        <h4 class="stage-name">曲を選ぶ</h4>
-        <p>アーティストやプレイリストから<br>
-        聴きたい曲を選びましょう。<br>
-        再生回数の多い曲を聴くと<br>
-        感動を生みやすいかも。</p>
+  <div class="wrapper">
+    <section class="music-top">
+      <div class="top-titles">
+        <h2 class="works-title">music diary</h2>
+        <p class="works-catchcopy">音楽の感動記録アプリ</p>
+      </div><!-- top-titles -->
+      <div class="top-image">
+        <img src="../assets/images/music-diary.jpg" alt="music-diary-visual" class="works-title-image">
       </div>
-    </div>
-    <div class="use-stage">
-      <img src="../assets/images/playing-coffee.jpg" alt="">
-      <div class="stage-descriptions">
-        <p class="number">02</p>
-        <h4 class="stage-name">感動する</h4>
-        <p>聴いていてわずかでも感動したら<br>
-        忘れないうちに記録しましょう。<br>
-        右上の記録アイコンを押すか<br>
-        アートワークを上にスワイプ。</p>
-      </div>
-    </div>
-    <div class="use-stage">
-      <img src="../assets/images/music-typing.jpg" alt="">
-      <div class="stage-descriptions">
-        <p class="number">03</p>
-        <h4 class="stage-name">記録する</h4>
-        <p>感動した時の状況や思いを<br>
-        一言日記のように綴りましょう。<br>
-        思いの種類などをタグ付けすると<br>
-        振り返る際に便利です。</p>
-      </div>
-    </div>
-    <div class="use-stage">
-      <img src="../assets/images/viewing-feed.jpg" alt="">
-      <div class="stage-descriptions">
-        <p class="number">04</p>
-        <h4 class="stage-name">振り返る</h4>
-        <p>音楽の力が必要になったら<br>
-        今までの感動を振り返ってみましょう。<br>
-        自分以外の感動に触れることで<br>
-        違った発見があるかも。</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="works-section">
-    <p class="invision-button">
-      <a href="https://invis.io/RGMEC8692TE" target="_blank">view prototype</a>
-    </p>
-  </section>
+    <section class="works-section works-about">
+      <h3 class="section-title">what's music diary?</h3>
+      <div class="text-group">
+        <p>音楽を聴いていて、ふと感動を覚えることはありませんか。<br>
+        不安から救ってくれた、傷ついた心を癒してくれた音楽の感動を記録し、振り返るアプリです。<br>
+        今の自分を救ってくれた音楽を記録しておくことで、未来の自分がまた救われるかもしれません。</p>
+      </div>
+    </section>
 
-  <footer class="site-footer">
-  <small class="copyright">&copy; Ryuki Murakami</small>
-  <!-- /site-footer   --></footer>
-</div><!-- wrapper -->
+    <section class="works-section works-how-to-use">
+      <h3 class="section-title">how to use</h3>
+      <div class="use-stage">
+        <img src="../assets/images/select-music.jpg" alt="">
+        <div class="stage-descriptions">
+          <p class="number">01</p>
+          <h4 class="stage-name">曲を選ぶ</h4>
+          <p>アーティストやプレイリストから<br>
+          聴きたい曲を選びましょう。<br>
+          再生回数の多い曲を聴くと<br>
+          感動を生みやすいかも。</p>
+        </div>
+      </div>
+      <div class="use-stage">
+        <img src="../assets/images/playing-coffee.jpg" alt="">
+        <div class="stage-descriptions">
+          <p class="number">02</p>
+          <h4 class="stage-name">感動する</h4>
+          <p>聴いていてわずかでも感動したら<br>
+          忘れないうちに記録しましょう。<br>
+          右上の記録アイコンを押すか<br>
+          アートワークを上にスワイプ。</p>
+        </div>
+      </div>
+      <div class="use-stage">
+        <img src="../assets/images/music-typing.jpg" alt="">
+        <div class="stage-descriptions">
+          <p class="number">03</p>
+          <h4 class="stage-name">記録する</h4>
+          <p>感動した時の状況や思いを<br>
+          一言日記のように綴りましょう。<br>
+          思いの種類などをタグ付けすると<br>
+          振り返る際に便利です。</p>
+        </div>
+      </div>
+      <div class="use-stage">
+        <img src="../assets/images/viewing-feed.jpg" alt="">
+        <div class="stage-descriptions">
+          <p class="number">04</p>
+          <h4 class="stage-name">振り返る</h4>
+          <p>音楽の力が必要になったら<br>
+          今までの感動を振り返ってみましょう。<br>
+          自分以外の感動に触れることで<br>
+          違った発見があるかも。</p>
+        </div>
+      </div>
+    </section>
 
-<script src="../assets/js/jquery-3.3.1.min.js"></script>
-<script src="../assets/js/index.js"></script>
-</body>
+    <section class="works-section">
+      <p class="invision-button">
+        <a href="https://invis.io/RGMEC8692TE" target="_blank">view prototype</a>
+      </p>
+    </section>
+
+    <footer class="site-footer">
+    <small class="copyright">&copy; Ryuki Murakami</small>
+    <!-- /site-footer   --></footer>
+  </div><!-- wrapper -->
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/index.js"></script>
+  </body>
 </html>
