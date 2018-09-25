@@ -21,6 +21,7 @@
   margin: 0 auto;
   height: 44px;
   width: 80%;
+  max-width: 256px;
   background: #5d636f;
   text-align: center;
   border-radius: 22px;
