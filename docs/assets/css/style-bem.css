@@ -98,7 +98,8 @@ a {
 }
 .nav-menu__item {
   width: 100%;
-  padding: 8px;
+  padding: 16px;
+  font-size: 2rem;
 }
 .nav-menu__detail {
   display: block;
