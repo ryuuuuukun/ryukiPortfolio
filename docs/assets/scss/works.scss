@@ -11,14 +11,15 @@
 }
 
 .top-titles {
-  margin: 24px auto 0;
+  margin: 24px auto 32px;
   text-align: center;
 }
 
 .top-titles h2 {
+  margin-bottom: 8px;
   min-width: 230px;
   font-size: 4rem;
-  line-height: 1.5;
+  line-height: 5rem;
   /* white-space: nowrap; */
 }
 
@@ -38,6 +39,26 @@
   margin: 44px 0 0;
 }
 
+.work-section {
+  margin-bottom: 40px;
+  &__category {
+    margin-bottom: 12px;
+    color: #666;
+    font-size: 1.8rem;
+  }
+  &__title {
+    margin-bottom: 24px;
+    font-size: 2rem;
+  }
+  &__description {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+  &__img {
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+  }
+}
 
 .works-about {
 }
@@ -108,14 +129,29 @@
   background: #5d636f;
   text-align: center;
   border-radius: 22px;
+  & a {
+    display: block;
+    height: 44px;
+    line-height: 4.4rem;
+    color: #FFF;
+    font-weight: 600;
+  }
 }
 
-.invision-button a {
-  display: block;
+.visit-button {
+  margin: 0 auto;
   height: 44px;
-  line-height: 4.4rem;
-  color: #FFF;
-  font-weight: 600;
+  width: 80%;
+  background: #E9E9E9;
+  text-align: center;
+  border-radius: 22px;
+  & a {
+    display: block;
+    height: 44px;
+    line-height: 4.4rem;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
 }
 
 
