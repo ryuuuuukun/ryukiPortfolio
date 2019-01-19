@@ -260,7 +260,7 @@ a {
   transition: .3s;
 }
 
-.works-card-link:hover {
+.works-card-link:active {
   transform: translateY(-8px);
   box-shadow: 0px 12px 24px #e6e6e6;
 }

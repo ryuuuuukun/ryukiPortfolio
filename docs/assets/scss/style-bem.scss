@@ -263,7 +263,7 @@ a {
   border-radius: 4px;
   transition: .3s;
 
-  &:hover {
+  &:active {
     transform: translateY(-8px);
     box-shadow: 0px 12px 24px hsl(0, 0%, 90%);
   }
