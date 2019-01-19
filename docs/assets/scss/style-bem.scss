@@ -50,6 +50,7 @@ a {
   &__icon {
      display: table-cell;
      vertical-align: middle;
+
      div {
        background-color: #282828;
      }
@@ -187,15 +188,10 @@ a {
 }
 
 .btn_hamburger.active span:nth-of-type(1) {
-    /* -webkit-transform: translateY(20px) scale(0);
-    -ms-transform: translateY(20px) scale(0);
-    transform: translateY(20px) scale(0); */
     opacity: 0;
 }
+
 .btn_hamburger.active span:nth-of-type(4) {
-    /* -webkit-transform: translateY(-20px) scale(0);
-    -ms-transform: translateY(-20px) scale(0);
-    transform: translateY(-20px) scale(0); */
     opacity: 0;
 }
 

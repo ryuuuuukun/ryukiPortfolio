@@ -44,10 +44,12 @@ a {
   display: table;
   z-index: 3;
 }
+
 #pageloading__icon {
   display: table-cell;
   vertical-align: middle;
 }
+
 #pageloading__icon div {
   background-color: #282828;
 }
@@ -92,19 +94,23 @@ a {
   opacity: 0;
   transition: all 0.8s;
 }
+
 .nav-menu.active {
   pointer-events: auto;
   opacity: 1;
 }
+
 .nav-menu__list {
   width: 100%;
   font-size: 2rem;
 }
+
 .nav-menu__link {
   display: block;
   padding: 16px;
   color: #4b4b4b;
 }
+
 .nav-menu__link--current {
   color: #cdcdcd;
 }
@@ -117,6 +123,7 @@ a {
   font-size: 1.6rem;
   font-weight: 600;
 }
+
 .title-logo__link {
   color: #282828;
   text-decoration: none;
@@ -179,16 +186,10 @@ a {
 }
 
 .btn_hamburger.active span:nth-of-type(1) {
-  /* -webkit-transform: translateY(20px) scale(0);
-  -ms-transform: translateY(20px) scale(0);
-  transform: translateY(20px) scale(0); */
   opacity: 0;
 }
 
 .btn_hamburger.active span:nth-of-type(4) {
-  /* -webkit-transform: translateY(-20px) scale(0);
-  -ms-transform: translateY(-20px) scale(0);
-  transform: translateY(-20px) scale(0); */
   opacity: 0;
 }
 
@@ -240,6 +241,7 @@ a {
     transform: none;
   }
 }
+
 .is-animated {
   animation: .6s up;
 }
@@ -291,7 +293,6 @@ a {
     width: 960px;
     margin: 0 auto;
   }
-
   .site-nav {
     position: absolute;
     display: flex;
@@ -300,7 +301,6 @@ a {
     background: rgba(255, 255, 255, 0.95);
     /* box-shadow: 0px 2px 8px hsl(0, 0%, 90%); */
   }
-
   .title-logo {
     margin: 0 0 0 24px;
     padding: 12px 0 0;
@@ -308,7 +308,6 @@ a {
     font-size: 1.6rem;
     font-weight: 600;
   }
-
   .nav-menu {
     pointer-events: auto;
     display: flex;
@@ -329,62 +328,50 @@ a {
   .nav-menu__link:hover {
     color: #bebebe;
   }
-
   .btn_hamburger {
     display: none;
   }
-
   .works-categories {
     display: flex;
     justify-content: center;
     padding: 16px 0 0;
   }
-
   .works-categories-current {
     color: #282828;
   }
-
   .works-category-detail {
     padding: 0 16px;
     font-size: 1.4rem;
     color: #999999;
     transition: all 0.5s;
   }
-
   .works-category-detail:hover {
     color: #282828;
   }
-
   .site-contents {
     padding: 80px 0 0;
   }
-
   .contents-title {
     color: #333333;
     font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
   }
-
   .work-cards-group {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     margin: 30px 0 0;
   }
-
   .work-card:nth-of-type(3n) {
     margin-right: 0px;
   }
-
   .work-card {
     margin-right: 14px;
   }
-
   .is-animated:nth-of-type(3n) {
     margin-right: 0px;
   }
-
   .works-card-link {
     display: block;
     margin: 0 0 32px;
@@ -394,12 +381,10 @@ a {
     border-radius: 4px;
     transition: .3s;
   }
-
   .works-card-link:hover {
     transform: translateY(-2px);
     box-shadow: 0px 2px 12px #e6e6e6;
   }
-
   .work-image {
     margin: 0 0 24px;
     width: 100%;
@@ -408,19 +393,15 @@ a {
     background: url(../images/music-diary.jpg) center;
     background-size: cover;
   }
-
   .work-title {
     margin: 0 0 8px;
     padding: 0 0 0 16px;
     font-size: 1.6rem;
     color: #4d4d4d;
   }
-
   .work-caption {
     padding: 0 0 0 15px;
     font-size: 1.2rem;
     color: #666666;
   }
 }
-
-/*# sourceMappingURL=style-bem.css.map */
