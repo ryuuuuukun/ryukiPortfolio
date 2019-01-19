@@ -102,12 +102,12 @@ a {
 
   &__list {
     width: 100%;
-    padding: 16px;
     font-size: 2rem;
   }
 
   &__link {
     display: block;
+    padding: 16px;
     color: #4b4b4b;
     &--current {
       color: #cdcdcd;

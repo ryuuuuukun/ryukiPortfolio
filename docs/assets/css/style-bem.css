@@ -98,11 +98,11 @@ a {
 }
 .nav-menu__list {
   width: 100%;
-  padding: 16px;
   font-size: 2rem;
 }
 .nav-menu__link {
   display: block;
+  padding: 16px;
   color: #4b4b4b;
 }
 .nav-menu__link--current {
