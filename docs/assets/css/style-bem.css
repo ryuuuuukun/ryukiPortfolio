@@ -96,16 +96,16 @@ a {
   pointer-events: auto;
   opacity: 1;
 }
-.nav-menu__item {
+.nav-menu__list {
   width: 100%;
   padding: 16px;
   font-size: 2rem;
 }
-.nav-menu__detail {
+.nav-menu__link {
   display: block;
   color: #4b4b4b;
 }
-.nav-menu__detail--current {
+.nav-menu__link--current {
   color: #cdcdcd;
 }
 
@@ -317,16 +317,16 @@ a {
     opacity: 1;
     box-shadow: 0px 0px rgba(255, 255, 255, 0);
   }
-  .nav-menu__item {
+  .nav-menu__list {
     padding: 0;
   }
-  .nav-menu__detail {
+  .nav-menu__link {
     padding: 12px 36px 12px 24px;
     font-weight: 500;
     transition-property: all;
     transition-duration: 0.5s;
   }
-  .nav-menu__detail:hover {
+  .nav-menu__link:hover {
     color: #bebebe;
   }
 
