@@ -258,6 +258,7 @@ a {
   background: #fafafa;
   border-radius: 4px;
   transition: .3s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .works-card-link:active {
