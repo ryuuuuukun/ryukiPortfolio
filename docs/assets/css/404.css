@@ -4,12 +4,13 @@
 }
 
 .error-message h2 {
-  font-size: 6.4rem;
+  font-size: 10rem;
 }
 
 .error-message p {
-  margin: 8px 0 0;
-  font-size: 1.6rem;
+  margin: -22px 0 0;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .button-section {
