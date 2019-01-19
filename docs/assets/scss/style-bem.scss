@@ -262,6 +262,11 @@ a {
   background: hsl(0, 0%, 98%);
   border-radius: 4px;
   transition: .3s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 12px hsl(0, 0%, 90%);
+  }
 }
 
 .work-image {
@@ -414,10 +419,6 @@ a {
     transition: .3s;
   }
 
-  .works-card-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 2px 12px hsl(0, 0%, 90%);
-  }
 
   .work-image {
     margin: 0 0 24px;
