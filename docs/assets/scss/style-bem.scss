@@ -262,13 +262,13 @@ a {
   height: 400px;
   background: hsl(0, 0%, 98%);
   border-radius: 8px;
-  transition: .3s;
+  transition: .2s;
   box-shadow: 0px 2px 12px hsl(0, 0%, 90%);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:active {
-    transform: translateY(-8px);
-    box-shadow: 0px 12px 24px hsl(0, 0%, 90%);
+    transform: translateY(2px);
+    box-shadow: 0px 0px 0px hsl(0, 0%, 90%);
   }
 }
 
@@ -301,15 +301,15 @@ a {
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 0px 2px 12px hsl(0, 0%, 90%);
-  transition: .3s;
+  transition: .2s;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   &:nth-of-type(3n) {
     margin-right: 0px;
   }
 
   &:active {
-    transform: translateY(-8px);
-    box-shadow: 0px 12px 24px hsl(0, 0%, 90%);
+    transform: translateY(2px);
+    box-shadow: 0px 0px 0px hsl(0, 0%, 90%);
   }
   
   &__ {

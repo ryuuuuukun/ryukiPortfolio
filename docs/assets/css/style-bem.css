@@ -258,14 +258,14 @@ a {
   height: 400px;
   background: #fafafa;
   border-radius: 8px;
-  transition: .3s;
+  transition: .2s;
   box-shadow: 0px 2px 12px #e6e6e6;
   -webkit-tap-highlight-color: transparent;
 }
 
 .works-card-link:active {
-  transform: translateY(-8px);
-  box-shadow: 0px 12px 24px #e6e6e6;
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px #e6e6e6;
 }
 
 .work-image {
@@ -297,7 +297,7 @@ a {
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 0px 2px 12px #e6e6e6;
-  transition: .3s;
+  transition: .2s;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -306,8 +306,8 @@ a {
 }
 
 .note-article:active {
-  transform: translateY(-8px);
-  box-shadow: 0px 12px 24px #e6e6e6;
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px #e6e6e6;
 }
 
 .note-article__image {
