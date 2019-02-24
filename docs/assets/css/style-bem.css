@@ -479,6 +479,10 @@ a {
     transform: translateY(-8px);
     box-shadow: 0px 12px 24px #e6e6e6;
   }
+  .works-card-link:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 0px #e6e6e6;
+  }
   .work-image {
     margin: 0 0 24px;
     width: 100%;
@@ -511,5 +515,9 @@ a {
   .note-article:hover {
     transform: translateY(-8px);
     box-shadow: 0px 12px 24px #e6e6e6;
+  }
+  .note-article:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 0px #e6e6e6;
   }
 }

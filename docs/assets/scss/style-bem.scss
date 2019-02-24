@@ -521,6 +521,10 @@ a {
       transform: translateY(-8px);
       box-shadow: 0px 12px 24px hsl(0, 0%, 90%);
     }
+    &:active {
+      transform: translateY(2px);
+      box-shadow: 0px 0px 0px hsl(0, 0%, 90%);
+    }
   }
 
 
@@ -560,6 +564,10 @@ a {
     &:hover {
       transform: translateY(-8px);
       box-shadow: 0px 12px 24px hsl(0, 0%, 90%);
+    }
+    &:active {
+      transform: translateY(2px);
+      box-shadow: 0px 0px 0px hsl(0, 0%, 90%);
     }
   }
   .site-footer {
