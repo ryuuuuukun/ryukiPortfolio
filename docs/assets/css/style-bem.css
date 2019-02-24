@@ -213,6 +213,39 @@ a {
   color: #999999;
 }
 
+.profile {
+  text-align: center;
+}
+
+.profile__img {
+  display: block;
+  margin: 12px auto;
+  width: 216px;
+}
+
+.profile__name {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+
+.profile__text {
+  margin-bottom: 24px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.profile__go-to-form-button {
+  display: block;
+  margin: 0 auto;
+  height: 44px;
+  width: 216px;
+  background: #0EC99B;
+  border-radius: 22px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 44px;
+}
+
 .works-categories {
   display: flex;
   justify-content: center;
