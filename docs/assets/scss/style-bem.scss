@@ -236,7 +236,7 @@ a {
     }
     &go-to-form-button {
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 24px;
       height: 44px;
       width: 216px;
       background: #0EC99B;
@@ -246,15 +246,15 @@ a {
       line-height: 44px;
     }
     &sns-buttons {
+      width: 148px;
+      margin: 0 auto 12px;
       &__ {
-        &twitter {
-
+        &icon {
+          width: 44px;
+          margin-right: 12px;
         }
-        &facebook {
-          
-        }
-        &note {
-          
+        &:last-child img {
+          margin-right: 0px;
         }
       }
     }

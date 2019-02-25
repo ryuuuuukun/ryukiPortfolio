@@ -236,7 +236,7 @@ a {
 
 .profile__go-to-form-button {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 24px;
   height: 44px;
   width: 216px;
   background: #0EC99B;
@@ -244,6 +244,20 @@ a {
   color: #fff;
   font-weight: bold;
   line-height: 44px;
+}
+
+.profile__sns-buttons {
+  width: 148px;
+  margin: 0 auto 12px;
+}
+
+.profile__sns-buttons__icon {
+  width: 44px;
+  margin-right: 12px;
+}
+
+.profile__sns-buttons__:last-child img {
+  margin-right: 0px;
 }
 
 .works-categories {
