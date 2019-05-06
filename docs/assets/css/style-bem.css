@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900");
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 @font-face {
   font-family: 'Futura Round';
   src: url("../fonts/futuraround-bold-webfont.woff") format("woff"), url("../fonts/futuraround-bold-webfont.woff2") format("woff2");
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Futura Round','Avenir next','Arial','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic',sans-serif, sans-serif;
+  font-family: 'Futura Round', 'Avenir next', 'Arial', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', YuGothic, 'Yu Gothic', sans-serif, sans-serif;
   font-size: 1.6rem;
   color: #282828;
 }
@@ -247,7 +248,7 @@ a {
 }
 
 .profile__sns-buttons {
-  width: 148px;
+  width: 176px;
   margin: 0 auto 12px;
 }
 
@@ -285,6 +286,7 @@ a {
   0% {
     transform: translateY(5%);
   }
+
   100% {
     transform: none;
   }
@@ -395,11 +397,13 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+
   /* for PC */
   .wrapper {
     width: 960px;
     margin: 0 auto;
   }
+
   .site-nav {
     position: absolute;
     display: flex;
@@ -408,6 +412,7 @@ a {
     background: rgba(255, 255, 255, 0.95);
     /* box-shadow: 0px 2px 8px hsl(0, 0%, 90%); */
   }
+
   .title-logo {
     margin: 0 0 0 24px;
     padding: 12px 0 0;
@@ -415,6 +420,7 @@ a {
     font-size: 1.6rem;
     font-weight: 600;
   }
+
   .nav-menu {
     pointer-events: auto;
     display: flex;
@@ -423,63 +429,78 @@ a {
     opacity: 1;
     box-shadow: 0px 0px rgba(255, 255, 255, 0);
   }
+
   .nav-menu__list {
     font-size: 1.6rem;
     padding: 0;
   }
+
   .nav-menu__link {
     padding: 12px 36px 12px 24px;
     font-weight: 500;
     transition-property: all;
     transition-duration: 0.5s;
   }
+
   .nav-menu__link:hover {
     color: #bebebe;
   }
+
   .btn_hamburger {
     display: none;
   }
+
   .works-categories {
     display: flex;
     justify-content: center;
     padding: 16px 0 0;
   }
+
   .works-categories-current {
     color: #282828;
   }
+
   .works-category-detail {
     padding: 0 16px;
     font-size: 1.4rem;
     color: #999999;
     transition: all 0.5s;
   }
+
   .works-category-detail:hover {
     color: #282828;
   }
+
   .site-contents {
     padding: 80px 0 0;
   }
+
   .contents-title {
     color: #333333;
     font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
   }
+
   .work-cards-group {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     margin: 30px 0 0;
   }
+
   .work-card:nth-of-type(3n) {
     margin-right: 0px;
   }
+
   .work-card {
     margin-right: 14px;
   }
+
   .is-animated:nth-of-type(3n) {
     margin-right: 0px;
   }
+
   .works-card-link {
     display: block;
     margin: 0 0 32px;
@@ -489,14 +510,17 @@ a {
     border-radius: 4px;
     transition: .3s;
   }
+
   .works-card-link:hover {
     transform: translateY(-8px);
     box-shadow: 0px 12px 24px #e6e6e6;
   }
+
   .works-card-link:active {
     transform: translateY(2px);
     box-shadow: 0px 0px 0px #e6e6e6;
   }
+
   .work-image {
     margin: 0 0 24px;
     width: 100%;
@@ -505,31 +529,38 @@ a {
     background: url(../images/music-diary.jpg) center;
     background-size: cover;
   }
+
   .work-title {
     margin: 0 0 8px;
     padding: 0 0 0 16px;
     font-size: 1.6rem;
     color: #4d4d4d;
   }
+
   .work-caption {
     padding: 0 0 0 15px;
     font-size: 1.2rem;
     color: #666666;
   }
+
   .note-articles {
     display: flex;
   }
+
   .note-article {
     margin-right: 14px;
     max-width: 300px;
   }
+
   .note-article__image {
     max-width: 300px;
   }
+
   .note-article:hover {
     transform: translateY(-8px);
     box-shadow: 0px 12px 24px #e6e6e6;
   }
+
   .note-article:active {
     transform: translateY(2px);
     box-shadow: 0px 0px 0px #e6e6e6;
