@@ -75,6 +75,7 @@
           <section class="site-contents profile">
             <img src="assets/images/portfolio-profile.png" alt="プロフィール写真" class="profile__img">
             <h2 class="profile__name">Ryuki Murakami</h2>
+            <h2 id="name-motion"></h2>
             <p class="profile__text">
               UI、ロゴ、名刺制作など<br>
               お気軽にご相談ください。<br>
@@ -83,8 +84,8 @@
             <a href="https://goo.gl/forms/u7GbYCuKkcgrGXPA2" class="profile__go-to-form-button" target="_blank">お仕事の相談をする</a>
             <div class="profile__sns-buttons">
               <a href="https://twitter.com/ryuki_kyoto"><img src="assets/images/Twitter_circle.png" alt="twitterアイコン" class="profile__sns-buttons__icon"></a>
-              <a href="https://www.facebook.com/ryuuuuukun"><img src="assets/images/facebook.svg" alt="facebookアイコン" class="profile__sns-buttons__icon"></a>
               <a href="https://www.instagram.com/ryuki.kyoto/"><img src="assets/images/IG.png" alt="Instagramアイコン" class="profile__sns-buttons__icon"></a>
+              <a href="https://www.facebook.com/ryuuuuukun"><img src="assets/images/facebook.svg" alt="facebookアイコン" class="profile__sns-buttons__icon"></a>
               <!-- <a href=""><img src="" alt="" class="profile__sns-buttons__icon"></a> -->
             </div>
           </section>
@@ -180,5 +181,15 @@
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="./assets/js/lottie.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      const anim = lottie.loadAnimation({
+        container: document.getElementById('name-motion'),
+        renderer: 'svg',
+        autoplay: true,
+        loop: true,
+        path: './assets/json/name-motion.json'
+      });
+    </script>
   </body>
 </html>
