@@ -113,7 +113,7 @@
   transform: translateX(-50%);
 }
 
-.use-stage h4 + p {
+.use-stage h4+p {
   margin: 48px 0 0;
 }
 
@@ -197,71 +197,86 @@ source {
 }
 
 @media screen and (min-width: 1024px) {
+
   /* for PC */
   .music-top {
     flex-wrap: nowrap;
     margin: 46px 0 0;
   }
+
   .works-title-image {
     width: 640px;
     margin: 60px 0 0 40px;
   }
+
   .top-titles {
     margin: 160px auto 0;
     text-align: left;
   }
+
   .works-section {
     margin-top: 120px;
   }
+
   .works-section h3 {
     font-size: 2.4rem;
   }
+
   .text-group p {
     display: block;
+    max-width: 420px;
     text-align: center;
     line-height: 2.8rem;
     font-size: 1.4rem;
   }
+
   .text-group p:nth-of-type(1) {
-    margin: 24px 0 0;
+    margin: 24px auto 0;
   }
+
   .use-stage {
     display: flex;
     margin: 100px 0 0;
     text-align: center;
   }
+
   .use-stage:first-child {
     margin-top: 56px;
   }
+
   .use-stage:nth-child(2n+1) {
     flex-direction: row-reverse;
   }
+
   .stage-descriptions {
     flex-grow: 2;
   }
+
   .use-stage img {
     width: auto;
     height: 310px;
   }
+
   .use-stage p:first-of-type {
     margin-top: 44px;
   }
+
   .invision-button {
     width: 280px;
   }
-  .video-container {
-    height: 0;
-  }
+
   video {
     width: auto;
     max-height: 560px;
   }
+
   .video-container iframe,
   .video-container object,
   .video-container embed {
     width: 640px;
     height: 360px;
   }
+
   .youtube {
     padding-top: 40%;
   }
